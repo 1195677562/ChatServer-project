@@ -3,14 +3,14 @@
 
 ----------------------------------------------------------------------
 ----------------------------------------------------------------------
-+bin 保存可执行文件
-/build CMake 
-/include 保存 .hpp文件
-/src  .cpp文件
-/test  与该项目无关，属于json.hpp和muduo库测试文件
-/thirdparty  保存 json.hpp文件
+- bin 保存可执行文件
+- build CMake 
+- include 保存 .hpp文件
+- src  .cpp文件
+- test  与该项目无关，属于json.hpp和muduo库测试文件
+- thirdparty  保存 json.hpp文件
 
-autobuild.sh 直接编译脚本文件，chmod u + x  直接直接执行文件，进行cmake操作下
+- autobuild.sh 直接编译脚本文件，chmod u + x  直接直接执行文件，进行cmake操作下
 
 
 ----------------------------------------------------------------------
