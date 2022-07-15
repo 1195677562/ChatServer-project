@@ -11,3 +11,7 @@ add_executable(ChatServer ${SRC_LIST} ${DB_LIST} ${MODEL_LIST} ${REDIS_LIST})
 #   指定链接时可执行文件需要以来的库文件  （链接ChatServer所包含的库文件）
 target_link_libraries(ChatServer muduo_net muduo_base mysqlclient hiredis pthread)
 #                    依赖的库  muduo_net  muduo_base mysqlclient pthread
+
+# 配置头文件的搜索路径
+include_directories(${PROJECT_SOURCE_DIR}/include)
+include_directories(${PROJECT_SOURCE_DIR}/include/server/chatservice.hpp) 
