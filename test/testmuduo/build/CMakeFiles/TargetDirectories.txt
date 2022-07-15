@@ -1,0 +1,3 @@
+/home/makabaka/project/group-chat/testmuduo/build/CMakeFiles/server.dir
+/home/makabaka/project/group-chat/testmuduo/build/CMakeFiles/edit_cache.dir
+/home/makabaka/project/group-chat/testmuduo/build/CMakeFiles/rebuild_cache.dir
